@@ -1,3 +1,6 @@
+-- day1
+-- insert & select
+
 create table student(
 id int primary key,
 first_name varchar(20) not null,
