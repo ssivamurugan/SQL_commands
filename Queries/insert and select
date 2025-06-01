@@ -1,0 +1,16 @@
+create table student(
+id int primary key,
+first_name varchar(20) not null,
+last_name char(1) not null,
+mail varchar(20),
+dept char(4)
+);
+
+desc student;
+
+insert into student values
+(1, "Shaam", 'S', 'shaam@gmail.com', 'IT'),
+(2, 'Shing', 'S', 'shing@gmail.com', 'IT'),
+(3, 'John', 'J', 'john@gmail.com', 'MECH');
+
+select * from student;
